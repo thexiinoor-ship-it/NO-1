@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy 16th Birthday, Alishba 💖</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Pacifico&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--hd:#ff4f9a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Baloo 2',system-ui,sans-serif;font-size:17px;line-height:1.45;color:#5a2a56;min-height:100vh;background:linear-gradient(160deg,#ffe3f1,#e9ddff);background-attachment:fixed;overflow-x:hidden}
+body.islamic{--hd:#ffe27a;color:#fff7e0;background:linear-gradient(180deg,#0b1b3a,#17406e);background-attachment:fixed}
+body.scary{--hd:#ff6b9a;color:#ffe9f3;background:linear-gradient(180deg,#14061f,#3b0a2a);background-attachment:fixed}
+body.fare{--hd:#d6246e;background:linear-gradient(160deg,#fff1b8,#ffc2e2,#c9b6ff);background-attachment:fixed}
+#bg,#sky{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+#sky{display:none}
+body.islamic #sky{display:block}
+#sky i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;animation:tw 2.5s infinite}
+@keyframes tw{50%{opacity:.15}}
+.fl{position:absolute;bottom:-40px;font-size:26px;opacity:.75;animation:up linear forwards}
+@keyframes up{to{transform:translateY(-115vh) rotate(30deg)}}
+nav{position:sticky;top:0;z-index:10;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:10px 8px;background:rgba(255,255,255,.35);backdrop-filter:blur(10px)}
+nav button{font:inherit;font-weight:700;font-size:.9rem;border:0;border-radius:999px;padding:8px 12px;background:rgba(255,255,255,.75);color:#8a2d6b;cursor:pointer;transition:transform .2s}
+nav button.act{background:#ff4f9a;color:#fff;transform:scale(1.07)}
+main{position:relative;z-index:1;max-width:640px;margin:0 auto;padding:18px 16px 50px;text-align:center}
+.tab{display:none}
+.tab.on{display:block;animation:in .6s}
+@keyframes in{from{opacity:0;transform:translateY(20px) scale(.97)}}
+h1{font-family:Pacifico,cursive;font-weight:400;font-size:clamp(1.9rem,8vw,2.9rem);line-height:1.3;color:var(--hd);margin:8px 0}
+h2{font-size:1.3rem;color:var(--hd);margin-bottom:6px}
+p{margin:6px 0}
+.card{background:rgba(255,255,255,.78);border-radius:24px;padding:18px;margin:14px 0;box-shadow:0 8px 24px #ff7eb633}
+body.islamic .card,body.scary .card{background:rgba(255,255,255,.08);border:1px solid rgba(255,226,122,.35);box-shadow:none}
+body.scary .card{border-color:#ff6b9a66;animation:shake 4s infinite}
+@keyframes shake{0%,90%,100%{transform:none}92%{transform:rotate(-1.5deg)}96%{transform:rotate(1.5deg)}}
+.btn{font:inherit;font-weight:700;border:0;border-radius:999px;padding:12px 24px;background:linear-gradient(135deg,#ff7eb6,#b79cff);color:#fff;box-shadow:0 6px 0 #d45a95;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+.btn:active{transform:translateY(4px)}
+body.islamic .btn{background:linear-gradient(135deg,#ffe27a,#d4a62a);color:#3b2a00;box-shadow:0 6px 0 #8a6a12}
+body.scary .btn{background:linear-gradient(135deg,#ff6b9a,#9b3dff);box-shadow:0 6px 0 #5a1a6e}
+/* home */
+#cd{display:flex;gap:10px;justify-content:center;margin:16px 0 6px}
+.box{background:#fff;border-radius:18px;padding:10px 6px;min-width:66px;box-shadow:0 6px 0 #ffb3d4}
+.box b{display:block;font-size:1.7rem;color:#ff4f9a}
+.box small{font-size:.75rem;color:#9b6a95}
+.today{font-size:1.7rem;color:#ff4f9a}
+.note{text-align:left}
+#pond{position:relative;height:200px;border-radius:22px;border:3px dashed #ff9ccb;overflow:hidden;background:rgba(255,255,255,.45);margin:10px 0}
+.h{position:absolute;bottom:-40px;font-size:34px;cursor:pointer;user-select:none;touch-action:manipulation;animation:rise 4s linear forwards}
+@keyframes rise{to{transform:translateY(-260px) rotate(20deg)}}
+/* islamic */
+.moon{width:80px;height:80px;margin:6px auto;border-radius:50%;box-shadow:inset -22px 0 0 0 #ffe27a;transform:rotate(-25deg);filter:drop-shadow(0 0 12px #ffe27a)}
+.lanterns{display:flex;justify-content:space-around;font-size:2rem}
+.lanterns span{display:inline-block;transform-origin:top;animation:sway 3s ease-in-out infinite}
+.lanterns span:nth-child(even){animation-delay:-1.5s}
+@keyframes sway{50%{transform:rotate(12deg)}}
+.kaaba{position:relative;width:130px;height:120px;margin:22px auto 8px;background:linear-gradient(180deg,#2e2e2e,#050505);border-radius:3px;box-shadow:0 0 40px #ffe27a77}
+.kaaba:before{content:"";position:absolute;left:0;right:0;top:24%;height:13%;background:linear-gradient(90deg,#b8901f,#ffe27a,#b8901f)}
+.kaaba:after{content:"";position:absolute;right:20%;bottom:0;width:22%;height:36%;background:linear-gradient(#ffe27a,#b8901f);border-radius:4px 4px 0 0}
+.ar{font-family:Amiri,'Traditional Arabic',serif;font-size:1.7rem;line-height:1.9;color:#ffe27a;direction:rtl}
+.src{font-size:.8rem;opacity:.7}
+/* scary */
+.warn{font-size:1.4rem;color:#ff6b9a;animation:blink 1.2s infinite}
+@keyframes blink{50%{opacity:.4}}
+#arena{position:relative;height:150px}
+#arena .btn{position:absolute;top:50px}
+#yes{left:5%;z-index:2}
+#no{left:58%;transition:left .2s,top .2s}
+/* farewell */
+.big{font-family:Pacifico,cursive;font-size:clamp(1.5rem,6.5vw,2.3rem);line-height:1.5;color:var(--hd);animation:glow 2s infinite alternate}
+@keyframes glow{to{text-shadow:0 0 18px #fff,0 0 30px #ff9ccb}}
+.chip{display:inline-block;margin:4px;padding:6px 14px;border-radius:999px;background:#fff;font-weight:700;color:#d6246e;box-shadow:0 4px 0 #ffb3d4}
+#balloons{display:grid;grid-template-columns:repeat(4,1fr);gap:30px 14px;margin:20px 0 30px;justify-items:center}
+.bal{width:62px;height:76px;border:0;border-radius:50% 50% 46% 46%;background:hsl(var(--h),85%,72%);position:relative;cursor:pointer;animation:bob 3s ease-in-out infinite;box-shadow:inset -8px -8px 0 #0001}
+.bal:after{content:"";position:absolute;left:50%;top:100%;width:2px;height:22px;background:#0003}
+.bal:nth-child(even){animation-delay:-1.5s}
+@keyframes bob{50%{transform:translateY(-10px)}}
+.bal.gone{animation:boom .35s forwards;pointer-events:none}
+@keyframes boom{to{transform:scale(1.7);opacity:0;visibility:hidden}}
+#wish{min-height:60px;font-weight:700;font-size:1.15rem}
+#final{display:none}
+.conf{position:fixed;top:-30px;z-index:50;pointer-events:none;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(112vh) rotate(540deg)}}
+#music{position:fixed;right:14px;bottom:14px;z-index:20;padding:10px 16px;font-size:.95rem}
+#music.on{animation:pulse 1.6s infinite}
+@keyframes pulse{50%{transform:scale(1.08)}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important;animation-iteration-count:1!important}}
+</style>
+</head>
+<body class="home">
+<div id="bg"></div>
+<div id="sky"></div>
+<nav>
+  <button data-t="home">🏠 Home</button>
+  <button data-t="islamic">🌙 Islamic</button>
+  <button data-t="scary">👻 Scary</button>
+  <button data-t="fare">🎉 Farewell</button>
+</nav>
+<main>
+
+<!-- TAB 1: HOME -->
+<section class="tab" id="home">
+  <h1>Happy 16th Birthday, Alishba! 🎂</h1>
+  <p>to my cutest, tiniest, sweetest <b>Bauni</b> 🎀</p>
+  <div id="cd"></div>
+  <p id="cdl"></p>
+  <div class="card">🎈 <b>Wishing you a day full of cake, surprises, laughter and all your favourite things!</b></div>
+  <div class="card note">
+    💌 <b>Dear Bauni,</b><br>
+    Today the world got a little brighter, because on this day you came into it. You're 5'2" of pure sunshine, giggles and cuteness, and I'm so lucky that you're mine. Happy 16th birthday, Alishba. May this year be your softest, happiest and most beautiful one yet. 💖
+  </div>
+  <div class="card">
+    <h2>🎮 Catch the hearts!</h2>
+    <div id="pond"></div>
+    <p>💖 Hearts caught: <b id="sc">0</b></p>
+    <p id="say">Tap the hearts as they float up!</p>
+  </div>
+  <p>Tap the tabs above for more surprises 👆</p>
+</section>
+
+<!-- TAB 2: ISLAMIC -->
+<section class="tab" id="islamic">
+  <div class="moon"></div>
+  <h1>A Blessed Birthday, Alishba 🌙</h1>
+  <p>Wishing you the best year of your life, in sha Allah ✨</p>
+  <div class="lanterns"><span>🏮</span><span>⭐</span><span>🏮</span><span>⭐</span><span>🏮</span></div>
+  <div class="kaaba"></div>
+  <p class="src">The Ka'bah, Makkah 🕋</p>
+
+  <div class="card"><div class="ar">كُلَّ عَامٍ وَأَنْتِ بِخَيْرٍ</div><p>May you be well and blessed, every single year.</p></div>
+  <div class="card"><div class="ar">بَارَكَ اللَّهُ فِي عُمْرِكِ</div><p>May Allah bless your life.</p></div>
+  <div class="card"><div class="ar">مَا شَاءَ اللَّهُ تَبَارَكَ اللَّهُ</div><p>Whatever Allah wills, blessed is Allah. (For my cutest girl 🥹)</p></div>
+  <div class="card"><div class="ar">رَبِّ زِدْنِي عِلْمًا</div><p>My Lord, increase me in knowledge.</p><p class="src">Qur'an 20:114</p></div>
+  <div class="card"><div class="ar">رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي</div><p>My Lord, open my heart for me and make my tasks easy for me.</p><p class="src">Qur'an 20:25-26</p></div>
+  <div class="card"><div class="ar">رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ</div><p>Our Lord, give us good in this world and good in the Hereafter, and protect us from the Fire.</p><p class="src">Qur'an 2:201</p></div>
+  <div class="card"><div class="ar">حَفِظَكِ اللَّهُ وَرَعَاكِ</div><p>May Allah protect you and watch over you.</p></div>
+
+  <div class="card">
+    <h2>🤲 My dua for you</h2>
+    <p>Alishba, may Allah make this your best year yet: strengthen your iman, keep you healthy and safe, bless your studies and your dreams, fill your heart with peace, and surround you with people who love you. May every good dua of yours be accepted. Ameen.</p>
+  </div>
+  <button class="btn" onclick="burst(['⭐','🌙','✨','🤲'],45)">Ameen 🤲</button>
+</section>
+
+<!-- TAB 3: SCARY -->
+<section class="tab" id="scary">
+  <p class="warn">⚠️ WARNING ⚠️</p>
+  <h1>Consequences if Bauni leaves me 👻</h1>
+  <p>(Read at your own risk. Side effects include laughing.)</p>
+  <div class="card">📶 <b>The WiFi will disconnect forever.</b><br>Only "buffering…" will remain in my life.</div>
+  <div class="card">😭 <b>I will cry like a cartoon character.</b><br>With two little fountains for eyes.</div>
+  <div class="card">🍕 <b>I will eat all the snacks alone.</b><br>And still feel empty inside.</div>
+  <div class="card">👻 <b>My ghost will haunt your phone at 3 AM.</b><br>"Hello??? Bauni??? You there???"</div>
+  <div class="card">🎵 <b>I will play sad songs on repeat.</b><br>Until the neighbours file a complaint.</div>
+  <div class="card">📏 <b>Nobody else will be the perfect hug size.</b><br>The whole world will feel too tall without you.</div>
+  <div class="card">
+    <h2>So… will you ever leave me? 🥺</h2>
+    <div id="arena">
+      <button class="btn" id="yes">Never 💖</button>
+      <button class="btn" id="no">Maybe 😈</button>
+    </div>
+    <p id="ans"></p>
+  </div>
+</section>
+
+<!-- TAB 4: FAREWELL -->
+<section class="tab" id="fare">
+  <h1>Happy Birthday, Alishba! 🎉</h1>
+  <p class="big">Sixteen looks SO good on you!</p>
+  <div class="card">
+    <p>May this year bring you everything beautiful:</p>
+    <span class="chip">💖 Happiness</span><span class="chip">🌿 Health</span><span class="chip">📚 Success</span><span class="chip">🌟 Dreams</span><span class="chip">💞 Love</span><span class="chip">😂 Laughter</span><span class="chip">🌙 Iman</span><span class="chip">🍫 Snacks</span>
+  </div>
+  <div class="card">
+    <h2>🎈 Pop the balloons!</h2>
+    <div id="balloons"></div>
+    <p id="wish">Pop a balloon to read a wish 👆</p>
+  </div>
+  <button class="btn" id="fbtn" onclick="reveal()">🎁 Tap for the final surprise</button>
+  <div class="card" id="final">
+    <p class="big">Happy Birthday, Bauni! 🎂</p>
+    <p>…and one more thing 🥹</p>
+    <p class="big">You're Ahmed's favourite person in the whole universe 💖</p>
+    <p>Yours forever, <b>Ahmed</b> 🌹</p>
+  </div>
+</section>
+
+</main>
+<button class="btn" id="music" aria-label="Toggle music">🎵 Play music</button>
+<script>
+const $ = id => document.getElementById(id);
+const pick = a => a[Math.floor(Math.random() * a.length)];
+let cur = 'home';
+
+/* ---- confetti ---- */
+function burst(set = ['🎉','💖','✨','🎊','🌸'], n = 40) {
+  for (let i = 0; i < n; i++) {
+    const s = document.createElement('span');
+    s.className = 'conf';
+    s.textContent = set[i % set.length];
+    s.style.cssText = `left:${Math.random() * 100}vw;font-size:${16 + Math.random() * 20}px;animation-duration:${2 + Math.random() * 2}s;animation-delay:${Math.random() * .5}s`;
+    document.body.appendChild(s);
+    setTimeout(() => s.remove(), 5000);
+  }
+}
+
+/* ---- tabs ---- */
+const tabBtns = [...document.querySelectorAll('nav button')];
+function go(id) {
+  cur = id;
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.id === id));
+  tabBtns.forEach(b => b.classList.toggle('act', b.dataset.t === id));
+  document.body.className = id;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  if (id === 'fare') burst();
+}
+tabBtns.forEach(b => b.addEventListener('click', () => go(b.dataset.t)));
+
+/* ---- floating background ---- */
+const themes = {
+  home: ['💖','🌸','✨','💗','🎀'],
+  islamic: ['⭐','🌙','✨'],
+  scary: ['👻','🦇','💀','🕸️'],
+  fare: ['🎈','🎉','💖','🎊']
+};
+setInterval(() => {
+  const s = document.createElement('span');
+  s.className = 'fl';
+  s.textContent = pick(themes[cur]);
+  s.style.left = Math.random() * 95 + '%';
+  s.style.animationDuration = (7 + Math.random() * 5) + 's';
+  $('bg').appendChild(s);
+  setTimeout(() => s.remove(), 12500);
+}, 700);
+
+/* ---- stars for the Islamic tab ---- */
+for (let i = 0; i < 45; i++) {
+  const s = document.createElement('i');
+  s.style.cssText = `left:${Math.random() * 100}%;top:${Math.random() * 100}%;animation-delay:${Math.random() * 3}s`;
+  $('sky').appendChild(s);
+}
+
+/* ---- countdown to 27 October ---- */
+function tick() {
+  const n = new Date(), y = n.getFullYear();
+  let t = new Date(y, 9, 27);
+  const end = new Date(y, 9, 28);
+  if (n >= end) t = new Date(y + 1, 9, 27);
+  if (n >= t && n < end) {
+    $('cd').innerHTML = '<b class="today">🎂 It\'s TODAY! 🎉</b>';
+    $('cdl').textContent = 'Happy birthday, my love!';
+    return;
+  }
+  const s = Math.floor((t - n) / 1000);
+  const v = [Math.floor(s / 86400), Math.floor(s % 86400 / 3600), Math.floor(s % 3600 / 60), s % 60];
+  $('cd').innerHTML = ['Days','Hours','Mins','Secs'].map((l, i) =>
+    `<div class="box"><b>${String(v[i]).padStart(2, '0')}</b><small>${l}</small></div>`).join('');
+  $('cdl').textContent = 'until your big day, 27 October 🎈';
+}
+tick();
+setInterval(tick, 1000);
+
+/* ---- catch the hearts ---- */
+let score = 0;
+const cheers = {
+  5: 'Wow, so fast! 🏃‍♀️💨',
+  10: 'Tiny but mighty, a 5\'2" ninja! 🥷',
+  20: 'Queen of Hearts 👑',
+  30: 'You\'ve stolen all my hearts… again 😭💖'
+};
+function spawn() {
+  const h = document.createElement('span');
+  h.className = 'h';
+  h.textContent = pick(['💖','💗','💕','💘','💝']);
+  h.style.left = Math.random() * 85 + '%';
+  h.style.animationDuration = (3 + Math.random() * 2) + 's';
+  h.onpointerdown = () => {
+    h.remove();
+    $('sc').textContent = ++score;
+    if (cheers[score]) $('say').textContent = cheers[score];
+  };
+  $('pond').appendChild(h);
+  setTimeout(() => h.remove(), 5500);
+}
+setInterval(() => { if (cur === 'home' && !document.hidden) spawn(); }, 800);
+
+/* ---- runaway "No" button ---- */
+const nos = ['Too slow! 😝','Nope 😜','Try again 🏃','Missed me!','Just say yes 🥺','Can\'t catch me 💨'];
+let nn = 0;
+function dodge(e) {
+  e.preventDefault();
+  const no = $('no'), a = $('arena').getBoundingClientRect(), b = no.getBoundingClientRect();
+  no.style.left = Math.max(0, Math.random() * (a.width - b.width)) + 'px';
+  no.style.top = Math.max(0, Math.random() * (a.height - b.height)) + 'px';
+  no.textContent = nos[nn++ % nos.length];
+}
+['mouseenter','touchstart','click'].forEach(ev => $('no').addEventListener(ev, dodge, { passive: false }));
+$('yes').onclick = () => {
+  $('ans').textContent = 'Wise choice, Bauni. The WiFi is saved. My heart is saved. 😭💖';
+  burst(['💖','🎉','✨'], 50);
+};
+
+/* ---- balloons ---- */
+const wishes = [
+  'May your year be full of laughter 😂',
+  'May Allah give you good health 🌿',
+  'May every exam be super easy 📚',
+  'May your dreams come true one by one 🌟',
+  'May you always have friends who love you 💞',
+  'May you never run out of snacks 🍫',
+  `May you stay 5'2" forever, because I love you at this exact size 📏`,
+  'May this be the best year of your life, Bauni 💖'
+];
+let popped = 0;
+wishes.forEach((w, i) => {
+  const b = document.createElement('button');
+  b.className = 'bal';
+  b.setAttribute('aria-label', 'Pop balloon');
+  b.style.setProperty('--h', i * 45);
+  b.onclick = () => {
+    b.classList.add('gone');
+    $('wish').textContent = w;
+    popped++;
+    burst(['🎈','✨'], 10);
+    if (popped === wishes.length) $('wish').textContent += ' 🎉 All wishes collected!';
+  };
+  $('balloons').appendChild(b);
+});
+
+/* ---- final surprise ---- */
+function reveal() {
+  $('fbtn').style.display = 'none';
+  $('final').style.display = 'block';
+  burst(['🎉','💖','🎊','✨','🌸','🎂'], 90);
+  $('final').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+go('home');
+</script>
+</body>
+</html>
